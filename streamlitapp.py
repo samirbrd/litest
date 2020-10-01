@@ -15,7 +15,7 @@ st.title('My first app')
 st.write("Here's my first attempt at writing some text")
 path_string="C:\\users\\administrator\\google drive\\autotrading\\"
 file_string=path_string+'strategyposition.csv'
-df_position=pd.read_csv('strategyposition.csv')
+df_position=pd.read_csv('Strategyposition.csv')
 add_selectbox = st.sidebar.selectbox(
     'Position in timeframe?',
     ('5 min', '15 min', '30 min','60 min','Daily','Total')
